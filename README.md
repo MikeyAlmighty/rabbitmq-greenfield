@@ -9,7 +9,7 @@ Docker: `docker run --name rabbitmq -p 5672:5672 rabbitmq`
 Scripts:
 
 ``` javascript
- // Publishes (With ARG i.e. npm run publish 69 - Publishes a message with { number: 69 } to queue.)
+// Publishes (With ARG i.e. npm run publish 69 - Publishes a message with { number: 69 } to queue.)
 npm run publish {ARG} 
 npm run consume // Consumes
 ```
